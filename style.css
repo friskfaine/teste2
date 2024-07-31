@@ -1,0 +1,69 @@
+body {
+    color: white;
+    background-color: black;
+    margin: 0px;
+    font-family: "Fjalla One", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 1px rgb(255 0 186);
+    padding: 20px;
+    font-size: 40px;
+    color: rgb(255 0 186);
+}
+
+.chamada {
+    background-color: #301058;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 49px;
+    padding-left: 30px;
+}
+
+p {
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+
+
+.mais-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 7px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.mais-videos img {
+    opacity: 0.5;
+    height: 200px
+}
+
+.mais-videos img:hover {
+    opacity: 1.0;
+    border: 1px solid rgb(255 0 186);
+
+}
+
+.categoria h2 {
+    color: rgb(255 0 186);
+}
+
+.video {
+    padding-right: 25px;
+}
